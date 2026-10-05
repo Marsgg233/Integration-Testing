@@ -1,5 +1,3 @@
-# Integration-Testing
-
 # Integration Testing & Backend Management (ServerPulse)
 
 Проект представляет собой C# ASP.NET Core бэкенд для управления игровыми серверами через Docker, а также набор интеграционных тестов для проверки всех эндпоинтов.

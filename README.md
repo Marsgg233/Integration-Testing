@@ -6,12 +6,15 @@
 
 ### 1. Запуск бэкенда
 Мы переходим в директорию проекта и запускаем сервер с помощью команды `dotnet run`. Приложение успешно стартует и начинает прослушивать порт `http://localhost:5056`.
-![Запуск консоли](assets/images/console-run.png)
+
+![Запуск консоли](assets/images/console-run.jpg)
 
 ### 2. Документация API (Swagger)
 После запуска бэкенда доступен интерфейс Swagger UI (`/swagger`), где представлены все эндпоинты для управления игровыми серверами, контейнерами Docker (`/api/servers`) и образами.
-![Swagger UI](assets/images/swagger-ui.png)
+
+![Swagger UI](assets/images/swagger-ui.jpg)
 
 ### 3. Интеграционное тестирование в Postman
 Для проверки работоспособности используется коллекция тестов в Postman. Все 84 тест-кейса успешно пройдены (зеленый статус), что подтверждает корректность работы бизнес-логики, обработки ошибок и интеграции с Docker.
-![Postman Test Results](assets/images/postman-results.png)
+
+![Postman Test Results](assets/images/postman-results.jpg)

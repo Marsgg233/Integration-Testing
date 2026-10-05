@@ -20,10 +20,10 @@ jobs:
         dotnet-version: '10.0.x'
 
     - name: Restore dependencies
-      run: dotnet restore
+      run: dotnet restore src/WebAPI
 
     - name: Build project
-      run: dotnet build --no-restore --configuration Release
+      run: dotnet build src/WebAPI --no-restore --configuration Release
 
     - name: Start Web API in background
       run: |
